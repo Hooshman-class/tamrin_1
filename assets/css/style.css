@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+.layout {
+    display: flex;
+}
+
+.aside {
+    width: 256px;
+    height: 100vh;
+    background-color: #161d31;
+    border-left: 1px solid #fff;
+}
+
+.aside__logo {
+    width: 100%;
+    padding: 16px;
+}
+
+.aside__list {
+    margin-top: 16px;
+    list-style: none;
+}
+
+.aside__list li {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.aside__list li a {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.aside__list li a i {
+    margin-bottom: 6px;
+    margin-left: 8px;
+}
+
+.aside__list li a.active {
+    background-color: #7367f0;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #7367f0;
+    margin: 0 8px;
+}
+
+.main {
+    width: 100%;
+    background-color: #283046;
+}
+
+.main__content {
+    padding: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 8px;
+    background-color: #161d31;
+    min-height: 64px;
+}
+
+.heaser__username {
+    display: flex;
+}
+
+.heaser__username p {
+    margin-left: 4px;
+}
+
+.text-white {
+    color: white;
+}
+
+.card {
+    background-color: #161d31;
+}
+
+table {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+table thead tr th {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table tbody tr td {
+    padding: 8px;
+}
+
+table tbody tr:last-child {
+    background-color: #212c4c;
+}
+
+table tbody tr:last-child td {
+    padding: 16px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #212c4c;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
